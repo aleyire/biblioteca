@@ -17,8 +17,12 @@ Utilizando datos ficticios se trabaja en una base de datos las operaciones bási
 - Adriana Oviedo
 
 ## Visualizaciones
+
+### Modelo conceptual
 ![](https://github.com/aleyire/biblioteca/blob/main/img/modelo_conceptual.png)
 
-![](https://github.com/aleyire/Entendiendo-como-se-comportan-nuestros-clientes/blob/main/img/preview_2.png)
+### Modelo lógico
+![](https://github.com/aleyire/biblioteca/blob/main/img/modelo_fisico.png)
 
+### Modelo físico
 ![](https://github.com/aleyire/Entendiendo-como-se-comportan-nuestros-clientes/blob/main/img/primer_select_producto.png)
