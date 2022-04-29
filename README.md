@@ -25,4 +25,4 @@ Utilizando datos ficticios se trabaja en una base de datos las operaciones bási
 ![](https://github.com/aleyire/biblioteca/blob/main/img/modelo_fisico.png)
 
 ### Modelo físico
-![](https://github.com/aleyire/Entendiendo-como-se-comportan-nuestros-clientes/blob/main/img/primer_select_producto.png)
+![](https://github.com/aleyire/biblioteca/blob/main/img/modelo_logico.png)
