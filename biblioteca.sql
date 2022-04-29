@@ -83,3 +83,8 @@ SELECT * FROM libros WHERE numero_paginas < 300;
 
 -- (b) Mostrar todos los autores que hayan nacido después del 01-01-1970
 SELECT * FROM autores WHERE fecha_nacimiento > '1-1-1970';
+
+-- (c) ¿Cuál es el libro más solicitado?
+select titulo as solicitado, count(ISBN_libro) from prestamos inner join libros on prestamos.ISBN_libro = libros.ISBN group by titulo order by count desc limit 1;
+
+-- (d) Si se cobrara una multa de $100 por cada día de atraso, mostrar cuánto debería pagar cada usuario que entregue el préstamo después de 7 días.
