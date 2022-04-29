@@ -17,7 +17,7 @@ Utilizando datos ficticios se trabaja en una base de datos las operaciones bási
 - Adriana Oviedo
 
 ## Visualizaciones
-![](https://github.com/aleyire/Entendiendo-como-se-comportan-nuestros-clientes/blob/main/img/preview_1.png)
+![](https://github.com/aleyire/biblioteca/blob/main/img/modelo_conceptual.png)
 
 ![](https://github.com/aleyire/Entendiendo-como-se-comportan-nuestros-clientes/blob/main/img/preview_2.png)
 
