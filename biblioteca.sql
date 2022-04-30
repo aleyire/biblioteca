@@ -88,3 +88,6 @@ SELECT * FROM autores WHERE fecha_nacimiento > '1-1-1970';
 select titulo as solicitado, count(ISBN_libro) from prestamos inner join libros on prestamos.ISBN_libro = libros.ISBN group by titulo order by count desc limit 1;
 
 -- (d) Si se cobrara una multa de $100 por cada día de atraso, mostrar cuánto debería pagar cada usuario que entregue el préstamo después de 7 días.
+SELECT nombre_socio, apellido_socio, ((fecha_devolucion - fecha_inicio)-7)*100 as deuda
+FROM socios INNER JOIN prestamos ON socios.rut = prestamos.rut_socio
+where (fecha_devolucion - fecha_inicio) > 7;
